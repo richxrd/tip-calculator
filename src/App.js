@@ -6,7 +6,7 @@ import TipPercent from "./components/TipPercent";
 
 const App = () => {
     const [bill, setBill] = useState("0");
-    const [billSelected, setBillSelected] = useState(false);
+    const [billSelected, setBillSelected] = useState(true);
     const [tip, setTip] = useState("10");
     const [tipSelected, setTipSelected] = useState(false);
     const [people, setPeople] = useState("1");
